@@ -1,5 +1,7 @@
 patches/
 
+dwm
+*.h
 *.o
 *.orig
 *.rej
