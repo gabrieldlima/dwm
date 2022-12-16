@@ -1,7 +1,9 @@
 patches/
+dwmblocks/dwmblocks
+dwmblocks/blocks.h
 
 dwm
-*.h
+config.h
 *.o
 *.orig
 *.rej
