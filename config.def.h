@@ -10,12 +10,12 @@ static const char *fonts[]          = { "JetBrainsMono Nerd Font:size=11" };
 static const char dmenufont[]       = "JetBrainsMono Nerd Font:size=11";
 
 /* colorscheme */
-static const char normbgcolor[]     = "#1d2021";
-static const char normbordercolor[] = "#1d2021";
-static const char normfgcolor[]     = "#fbf1c7";
-static const char selbgcolor[]      = "#a89984";
-static const char selbordercolor[]  = "#a89984";
-static const char selfgcolor[]      = "#282828";
+static const char normbgcolor[]     = "#010409";
+static const char normbordercolor[] = "#010409";
+static const char normfgcolor[]     = "#eeeeee";
+static const char selbgcolor[]      = "#6e7681";
+static const char selbordercolor[]  = "#6e7681";
+static const char selfgcolor[]      = "#ffffff";
 static const char *colors[][3]      = {
     /*               fg           bg           border   */
     [SchemeNorm] = { normfgcolor, normbgcolor, normbordercolor },
