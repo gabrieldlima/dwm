@@ -1,4 +1,5 @@
 /* See LICENSE file for copyright and license details. */
+#include "themes/catppuccin.h"
 
 /* appearance */
 static const unsigned int borderpx  = 2;        /* border pixel of windows */
@@ -10,12 +11,6 @@ static const char *fonts[]          = { "JetBrainsMono Nerd Font:size=11" };
 static const char dmenufont[]       = "JetBrainsMono Nerd Font:size=11";
 
 /* colorscheme */
-static const char normbgcolor[]     = "#010409";
-static const char normbordercolor[] = "#010409";
-static const char normfgcolor[]     = "#eeeeee";
-static const char selbgcolor[]      = "#6e7681";
-static const char selbordercolor[]  = "#6e7681";
-static const char selfgcolor[]      = "#ffffff";
 static const char *colors[][3]      = {
     /*               fg           bg           border   */
     [SchemeNorm] = { normfgcolor, normbgcolor, normbordercolor },
@@ -60,7 +55,7 @@ static const Layout layouts[] = {
 #define SHCMD(cmd) { .v = (const char*[]){ "/bin/sh", "-c", cmd, NULL } }
 
 /* commands */
-static const char *dmenucmd[] = { "dmenu_run", "-fn", dmenufont, "-nb", normbgcolor, "-nf", normfgcolor, "-sb", selbgcolor, "-sf", selfgcolor, NULL };
+static const char *dmenucmd[] = { "dmenu_run", "-fn", dmenufont, NULL };
 static const char *termcmd[]  = { "alacritty", NULL };
 static const char *browser[] = { "brave", NULL };
 
