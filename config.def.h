@@ -10,7 +10,6 @@ static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "JetBrainsMono Nerd Font:size=11" };
 static const char dmenufont[]       = "JetBrainsMono Nerd Font:size=11";
 
-/* colorscheme */
 static const char *colors[][3]      = {
     /*               fg           bg           border   */
     [SchemeNorm] = { normfgcolor, normbgcolor, normbordercolor },
