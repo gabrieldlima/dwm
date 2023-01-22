@@ -84,6 +84,7 @@ static const Key keys[] = {
     { MODKEY|ShiftMask,             XK_period, tagmon,         {.i = +1 } },
     { MODKEY,                       XK_minus,  spawn,          SHCMD("pactl set-sink-volume @DEFAULT_SINK@ -5%; pkill -RTMIN+10 dwmblocks") },
     { MODKEY,                       XK_equal,  spawn,          SHCMD("pactl set-sink-volume @DEFAULT_SINK@ +5%; pkill -RTMIN+10 dwmblocks") },
+    { MODKEY|ShiftMask,             XK_Tab,    spawn,          SHCMD("sb-keyboard toogle; pkill -RTMIN+11 dwmblocks") },
     TAGKEYS(                        XK_1,                      0)
     TAGKEYS(                        XK_2,                      1)
     TAGKEYS(                        XK_3,                      2)
@@ -112,4 +113,3 @@ static const Button buttons[] = {
 	{ ClkTagBar,            MODKEY,         Button1,        tag,            {0} },
 	{ ClkTagBar,            MODKEY,         Button3,        toggletag,      {0} },
 };
-
