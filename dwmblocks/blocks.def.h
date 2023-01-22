@@ -8,7 +8,7 @@ static const Block blocks[] = {
     {"",     PATH("sb-memory"), 1,                  0},
     {"",     PATH("sb-temp"),   1,                  0},
     {"",     PATH("sb-pacman"), 600,                0},
-    {"",     PATH("sb-volume"), 1,                  0},
+    {"",     PATH("sb-volume"), 0,                  10},
     {"",     PATH("sb-date"),   60,                 0},
     {"",     PATH("sb-clock"),  60,                 0},
 };
