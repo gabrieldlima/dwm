@@ -2,7 +2,7 @@
 
 #define BROWSER  "qutebrowser"
 #define LAUNCHER "dmenu_run"
-#define TERMINAL "alacritty"
+#define TERMINAL "st"
 
 /* appearance */
 static const unsigned int borderpx  = 2;    /* border pixel of windows */
