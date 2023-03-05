@@ -1,6 +1,6 @@
 #include "themes/catppuccin.h"
 
-#define BROWSER  "qutebrowser"
+#define BROWSER  "brave-bin"
 #define LAUNCHER "dmenu_run"
 #define TERMINAL "st"
 
@@ -24,7 +24,7 @@ static const char *tags[] = { "cmd", "web", "dev", "sys", "kvm" };
 static const Rule rules[] = {
     /* class            instance    title    tags mask    isfloating    monitor */
     { NULL,             NULL,       NULL,    0,           False,       -1 },
-    { "qutebrowser",    NULL,       NULL,    1 << 1,      False,       -1 },
+    { "Brave-browser",  NULL,       NULL,    1 << 1,      False,       -1 },
 };
 
 /* layout(s) */
