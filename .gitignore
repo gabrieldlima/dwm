@@ -1,6 +1,4 @@
 patches/
-dwmblocks/dwmblocks
-dwmblocks/blocks.h
 
 dwm
 config.h
