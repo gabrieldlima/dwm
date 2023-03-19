@@ -2,7 +2,7 @@
 
 #define BROWSER  "brave-bin"
 #define LAUNCHER "dmenu_run"
-#define TERMINAL "st"
+#define TERMINAL "wezterm"
 
 /* appearance */
 static const unsigned int borderpx  = 2;    /* border pixel of windows */
